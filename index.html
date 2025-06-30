@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phasin Web Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body id="top-of-page">
+    <div class="underlay"></div>
+    <header>
+        <a href="/">
+            <h1>Phasin Ploypicha</h1>
+        </a>
+        <h4>Computer Engineer</h4>
+        <nav>
+            <a class="anchor-text" href="#about">
+                <!-- ADDED POST TUTORIAL -->
+                <div class="nav-line"></div>
+                <p>About</p>
+            </a>
+            <a class="anchor-text" href="#education">
+                <div class="nav-line"></div>
+                <p>Education</p>
+            </a>
+            <a class="anchor-text" href="#projects">
+                <div class="nav-line"></div>
+                <p>Projects</p>
+            </a>
+        </nav>
+        <div class="social-link-container">
+            <a class="social-link" href="https://www.linkedin.com/in/phasin-ploypicha-ba9842367/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a class="social-link" href="https://github.com/PhasinAom" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a class="social-link" href="https://www.instagram.com/a.aom__/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="social-link" href="https://www.facebook.com/aomsin.ployphicha" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <div class="sticky-header">
+                <h2 class="lightText">About</h2>
+            </div>
+            <div class="about-contents">
+                <p>Final-year Computer Engineering student with a strong interest in building practical, user-focused
+                    solutions. Eager to deepen my understanding of development by working alongside
+                    experienced professionals and contributing to real-world projects.
+                </p>
+                <p> Recognized for being highly
+                    motivated, quick to learn, and adaptable in team environments, with a hands-on approach to solving
+                    technical challenges.
+                </p>
+            </div>
+        </section>
+        <section id="education">
+            <div class="sticky-header">
+                <h2 class="lightText">Education</h2>
+            </div>
+            <div class="experience-contents">
+                <div class="experience-card">
+                    <p class="tenure">MAY 2015 - MARCH 2021</p>
+                    <div class="card-column">
+                        <a class="card-header-link" href="https://absbilingualschool.ac.th/new/contact/" target="_blank">
+                            <h3 class="anchor-text card-header">Ambassador Billingual School, Chiang Mai, Thailand
+                                <i class="fa-solid fa-arrow-right anchor-icon"></i>
+                            </h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <p class="tenure">SEPTEMBER 2021 - PRESENT</p>
+                    <div class="card-column">
+                        <a class="card-header-link" href="https://muic.mahidol.ac.th/eng/" target="_blank">
+                            <h3 class="anchor-text card-header">MAHIDOL UNIVERSITY INTERNATIONAL COLLEGE,
+                                NAKHON PATHOM, thailand <i
+                                    class="fa-solid fa-arrow-right anchor-icon"></i></h3>
+                        </a>
+                        <p>Major in Computer Engineering.</p>
+                        <p><a class="anchor-text">Relevant Courses:</a> Data Structures and Algorithms,
+                            Computer Architecture, Operating Systems, Software
+                            Engineering, Database Systems, Embedded Systems,
+                            Computer Networks.</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- MODIFIED POST TUTORIAL -->
+            <a href="public/Resume_Phasin_Ploypicha-4.pdf" target="_blank" class="project-archive-link">
+                <p>View Full Resume <span class="right-arrow">&rarr;</span></p>
+            </a>
+        </section>
+        <section id="projects">
+            <div class="sticky-header">
+                <h2 class="lightText">Projects</h2>
+            </div>
+            <div class="project-contents">
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="/public/Screenshot 2568-06-30 at 11.14.29.png" alt="object detection" />
+                    </div>
+                    <div class="card-column">
+                        <a href="https://github.com/PhasinAom/Motorbike-detection" target="_blank" class="card-header-link">
+                            <h3 class="anchor-text card-header">YOLO-BASED MOTORCYCLE HELMET
+                                DETECTION SYSTEM PROJECT
+                                <i class="fa-solid fa-arrow-right anchor-icon"></i>
+                            </h3>
+                        </a>
+                        <p>Built real-time helmet detection system with
+                            YOLOv8 and CCTV feeds.
+                            Trained custom object detection model for
+                            high-accuracy helmet classification.
+                            Deployed model to monitor rider safety in
+                            university. </p>
+                        <a class="anchor-text project-stat-link">
+                            <i class="fa-solid fa-check"></i>
+                            <p>>80% Accuracy</p>
+                        </a>
+                        <div class="tag-container">
+                            <div class="tag">
+                                <p>YOLOV8</p>
+                            </div>
+                            <div class="tag">
+                                <p>Python</p>
+                            </div>
+                            <div class="tag">
+                                <p>Roboflow</p>
+                            </div>
+                            <div class="tag">
+                                <p>Object Detection</p>
+                            </div>
+                            <div class="tag">
+                                <p>Modeling</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="/public/Screenshot 2568-06-30 at 11.51.51.png" alt="object detection" />
+                    </div>
+                    <div class="card-column">
+                        <a class="card-header-link" href="https://github.com/PhasinAom/Cat-Robot-" target="_blank">
+                            <h3 class="anchor-text card-header">ROBOTIC CAT WITH UNCANNY VALLEY
+                                MOTION SIMULATION PROJECT<i
+                                    class="fa-solid fa-arrow-right anchor-icon"></i></h3>
+                        </a>
+                        <p>Integrated robotic hardware and mobile app interface.
+                            Built behavior-based control using ultrasonic sensors for
+                            crouch/stalk reactions.
+                            Simulated eerie catlike behavior to invoke uncanny valley
+                            effect.</p>
+                        <div class="tag-container">
+                            <div class="tag">
+                                <p>Embedded System</p>
+                            </div>
+                            <div class="tag">
+                                <p>Python</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/PhasinAom" target="_blank" class="project-archive-link">
+                <p>View Full Project Archive <span class="right-arrow">&rarr;</span></p>
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Coded in <a href="https://code.visualstudio.com/" target="_blank" class="anchor-text">Visual Studio Code</a>
+            by Phasin Ploypicha. <br />Built with HTML & CSS, and
+            deployed with <a href="https://www.netlify.com" target="_blank" class="anchor-text">Netlify</a>. <br />All
+            Text is
+            set in the <a href="https://rsms.me/inter/" target="_blank" class="anchor-text">Inter</a> typeface.
+        </p>
+        <a href="#top-of-page" class="scroll-to-top">
+            <i class="fa-solid fa-caret-up"></i>
+        </a>
+    </footer>
+</body>
+
+</html>
